@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+}
+.inSanPham a:hover
+{
+	color: #17a78b;
+	text-decoration: none;
+}
+.title{
+	color: #17a78b;
+	font-size: 50px;
+	text-align: center;
+}
+.titleCT{
+	color: #17a78b;
+	font-size: 50px;
+}
+
+.hinhSP{
+	height:150px;
+}
+.cart{
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+}
+.single-product
+{
+	padding-bottom: 50px;
+}
+.chiTiet
+{
+	margin-bottom: 50px;
+}
+
+.inSanPham a h4{
+	color: #000;
+}
+
+/*Footer start*/
+.footer-top
+{
+	margin-top: 50px;
+	color: gray;
+	background: #333;
+}
+.footer-top h2
+{
+	color: #17a78b;
+}
+.footer-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu ul li {
+    border-bottom: 1px dashed #555;
+    padding: 5px 0;
+}
+
+.footer-top a {
+	color: white;
+	text-decoration: none;
+}
+.footer-top a:hover {
+	color: #17a78b;
+	text-decoration: none;
+}
+
+/*Footer end*/
+.price
+{
+	display: inline;
+	font-weight: bold;
+	color: green;
+}
+
+
+.navbar-default a:hover { color: #17a78b !important; }
+
