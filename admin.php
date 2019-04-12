@@ -99,7 +99,7 @@ else
                             <thead>
                             <tr>
                                 <th>Id</th>
-                                <th>Image</th>
+                                
                                 <th>Name</th>
                                 <th>Brand</th>
                                 <th>Price</th>
@@ -115,7 +115,7 @@ else
                                 <td name='id'><?php 
                                     echo $row['id'];
                                  ?></td>
-                                 <td><img src="public/img/<?php echo $row['brand']."/".$row['img']?>" class="hinhSP"></td>
+                                
                                 <td><?php echo $row['name']; ?></td>
                                 <td><?php echo $row['brand']?></td>
                                 <td><?php echo $row['price']?></td>
