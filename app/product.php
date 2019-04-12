@@ -1,7 +1,7 @@
 <?php
 class product extends db{
-	public function addproduct($brand, $name, $price, $img){
-		$sql = "INSERT INTO products(brand, name, price, img) VALUES ('$brand', '$name', '$price', '$img')";
+	public function addproduct($brand, $name, $price){
+		$sql = "INSERT INTO products(brand, name, price) VALUES ('$brand', '$name', '$price')";
 		// var_dump($sql);
 		$result = self::$conn->query($sql);
 		return $result;
@@ -20,8 +20,8 @@ class product extends db{
 		return $this->getData($result);
 	}	
 
-	public function editproduct($brand, $name, $price, $img, $id){
-		$sql = "UPDATE products SET brand = '$brand', name = '$name', price = '$price', img = '$img' WHERE id = $id";
+	public function editproduct($brand, $name, $price, $id){
+		$sql = "UPDATE products SET brand = '$brand', name = '$name', price = '$price' WHERE id = $id";
 		var_dump($sql);
 		$result = self::$conn->query($sql);
 		return $result;

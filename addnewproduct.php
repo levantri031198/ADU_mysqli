@@ -57,10 +57,11 @@ else
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               
+                
             </div>
             
-          
+            
+
                 <ul class="nav navbar-nav navbar-right">
                     <?php
                      if (isset($_SESSION['user']))
@@ -128,12 +129,7 @@ else
 
                                     </select> *
                                 </div>
-                                <div class="control-group">
-                                    <label class="control-label col-md-3">Choose an image :</label>
-                                    <div class="controls">
-                                        <input type="file" name="fileUpload" id="fileUpload">
-                                    </div>
-                                </div>
+                               
                                 <div class="control-group">                                    
                                     <div class="control-group">
                                         <label class="control-label col-md-3">Price :</label>
